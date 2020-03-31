@@ -1,0 +1,39 @@
+<style>
+
+body {
+  background-color: linen;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+      background-color: lightgray;
+    }
+  }
+
+.practice {
+    color: darkslategray;
+    font: 2em calibri;  
+}
+#extracredit{
+    color:red;
+    font: 2em times;
+}
+
+h1 {
+  color: darkred;
+  text-align: center;
+  border: black;
+  border-spacing: 30px;
+} 
+
+table {
+    border:  3px solid black;
+    style="width: 100%;
+    align-self: center;
+}
+
+tr, td {
+    border: 3px solid black;
+}
+
+</style>

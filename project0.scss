@@ -1,0 +1,53 @@
+<style>
+
+body {
+  background-color: linen;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: lightgray;
+  }
+}
+
+$fontcolor:darkslategray;
+$fontstyle: times;
+
+%xcredit{
+    font: 3em $fontstyle;
+    color: red;
+}
+
+.englishxcredit {
+    @extend %xcredit
+    font-style: italic;
+}
+
+.practice {
+    color: $fontcolor;
+    font: 2em $fontstyle;  
+}
+#extracredit{
+    color:red;
+    font: 2em $fontstyle;
+}
+
+h1 {
+  color: $fontcolor;
+  font: verdana;
+  text-align: center;
+  border: black;
+  border-spacing: 30px;
+} 
+
+table {
+    border:  3px solid black;
+    style="width: 100%;
+    align-self: center;
+}
+
+tr, td {
+    border: 3px solid black;
+}
+
+</style>
