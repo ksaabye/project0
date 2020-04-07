@@ -1,20 +1,6 @@
 body {
   background-color: linen; }
 
-font {
-  family: Helvetica, sans-serif;
-  size: 18px;
-  weight: bold; }
-
-a {
-  color: blue; }
-  a:visited {
-    color: darkturquoise; }
-  a:hover {
-    color: red; }
-  a:active {
-    color: yellow; }
-
 @media screen and (max-width: 600px) {
   body {
     background-color: lightgray; } }
@@ -40,12 +26,4 @@ table {
 tr, td {
   border: 3px solid black; }
 
-.nav-link, .nav-link-home {
-  color: blue;
-  font: times; }
-
-.nav-link-home {
-  color: darkgreen;
-  font-size: 2em; }
-
-/*# sourceMappingURL=project0.css.map */
+/*# sourceMappingURL=project.css.map */
